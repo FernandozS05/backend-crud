@@ -7,7 +7,7 @@ export class CreateProductDto {
 
   @IsNotEmpty()
   @IsNumber()
-  precio: number;
+  price: number;
 
   @IsNotEmpty()
   @IsString()
